@@ -8,6 +8,7 @@ function TaskForm(props) {
         id="task-name"
         name="task-name"
         type="text"
+        value={props.taskName}
         onChange={props.handleTaskNameChange}
       />
 
