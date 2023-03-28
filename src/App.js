@@ -109,9 +109,15 @@ function App() {
 
   const userName = "Rachel";
 
+  // CSS styling
+  const headingStyle = {
+    color: "purple",
+    fontSize: 36
+  }
+
   return (
     <div className="App">
-      <h1>Task List</h1>
+      <h1 style={headingStyle}>Task List</h1>
 
       {/* <TaskForm
         taskName={taskName}
